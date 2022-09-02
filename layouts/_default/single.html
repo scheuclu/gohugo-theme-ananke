@@ -3,7 +3,10 @@
   {{ partial "page-header.html" . }}
 {{ end }}
 
+
+
 {{ define "main" }}
+
   {{ $section := .Site.GetPage "section" .Section }}
   <article class="flex-l flex-wrap justify-between mw8 center ph3">
     <header class="mt4 w-100">
@@ -12,9 +15,8 @@
           CurrentSection allows us to use the section title instead of inferring from the folder.
           https://gohugo.io/variables/page/#section-variables-and-methods
           */}}
-        {{with .CurrentSection.Title }}{{. | upper }}{{end}}
       </aside>
-      {{ partial "social-share.html" . }}
+      {{ partial "share-button.html" . }}
       <h1 class="f1 athelas mt3 mb1">
         {{- .Title -}}
       </h1>
@@ -63,6 +65,8 @@
     <aside class="w-30-l mt6-l">
       {{- partial "menu-contextual.html" . -}}
     </aside>
+
+    
 
   </article>
 {{ end }}
