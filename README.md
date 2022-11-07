@@ -5,6 +5,10 @@ This is my fork of the Ananke theme, used to build my [personal website](www.sch
 ![screenshot](https://awesomescreenshot.s3.amazonaws.com/image/3871678/34137298-2508cb4522cf23690a925d7067020b10.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20221107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221107T121411Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=6b9d44aa826640454dd8f8868974731bee4c968f6a8e923f2210a4b8c4ce4e60)
 
 
+<p float="left">
+  <img src="https://awesomescreenshot.s3.amazonaws.com/image/3871678/34137461-115807cfc2edb455c4003601c3b01d2d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20221107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221107T122250Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=170e0ecc990611e706f0bb13589428da7c8ebcdece5fe8c0a4f1970f73160bbd" width="49.5%" />
+  <img src="https://awesomescreenshot.s3.amazonaws.com/image/3871678/34137492-b8da8e1a34ec91fb5f81bbae30334158.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20221107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221107T122403Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=82ff8cff0e66177315d1a2ed26dd00b2a03bab0a36c3b7a41722ce1da23d6dd5" width="49.5%" /> 
+</p>
 
 ## Installation
 
