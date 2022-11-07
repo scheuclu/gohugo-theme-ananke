@@ -1,49 +1,8 @@
 # Ananke, A theme for [Hugo](https://gohugo.io/), a framework for building websites.
 
-The intent of this theme is to provide a solid starting place for Hugo sites with basic features and include best practices for performance, accessibility, and rapid development.
+This is my fork of the Ananke theme, used to build my [personal website](www.scheuclu.com).
 
-![screenshot](https://raw.githubusercontent.com/budparr/gohugo-theme-ananke/master/images/screenshot.png)
-
-[DEMO](https://gohugo-ananke-theme-demo.netlify.com/)
-
-Features
-
-- Responsive
-- Accessible
-- Contact form
-- Custom Robots.txt (changes values based on environment)
-- Internal templates for meta data, google analytics, and DISQUS or COMMENTO comments
-- RSS Discovery
-- Table of Contents (must declare `toc: true` in post parameter)
-- Stackbit configuration ([Stackbit](https://www.stackbit.com))
-
-Also includes examples of Hugo Features or Functions:
-
-- Pagination (internal template)
-- Taxonomies
-- Archetypes
-- Custom shortcode
-- Related content
-- Hugo built-in menu
-- i18n
-- `with`
-- `HUGO_ENV`
-- `first`
-- `after`
-- `sort`
-- Site LanguageCode
-- `where`
-- Content Views
-- Partials
-- Template layouts (type "post" uses a special list template, single template, and a content view)
-- Tags
-- `len`
-- Conditionals
-- `ge` (greater than or equal to)
-- `.Site.Params.mainSections` to avoid hard-coding "blog," etc. [[release note](https://github.com/gohugoio/hugo/blob/66ec6305f6cb450ddf9c489854146bac02f7dca1/docs/content/meta/release-notes.md#enhancements)]
-
-
-This theme uses the "Tachyons" CSS library. This will allow you to manipulate the design of the theme by changing class names in HTML without touching the original CSS files. For more information see the [Tachyons website](https://tachyons.io/).
+![screenshot](https://awesomescreenshot.s3.amazonaws.com/image/3871678/34137298-2508cb4522cf23690a925d7067020b10.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJSCJQ2NM3XLFPVKA%2F20221107%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20221107T121411Z&X-Amz-Expires=28800&X-Amz-SignedHeaders=host&X-Amz-Signature=6b9d44aa826640454dd8f8868974731bee4c968f6a8e923f2210a4b8c4ce4e60)
 
 
 
@@ -66,7 +25,7 @@ This theme uses the "Tachyons" CSS library. This will allow you to manipulate th
 2. Add the theme's repo to your `config.toml`:
 
    ```toml
-   theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
+   theme = ["github.com/scheuclu/gohugo-theme-ananke"]
    ```
 
 ### As Git Submodule
@@ -74,7 +33,7 @@ This theme uses the "Tachyons" CSS library. This will allow you to manipulate th
 Inside the folder of your Hugo site run:
 
 ```
-$ git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+$ git submodule add https://github.com/scheuclu/gohugo-theme-ananke.git themes/ananke
 ```
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -87,7 +46,7 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### The config file
 
-Take a look inside the [`exampleSite`](https://github.com/theNewDynamic/gohugo-theme-ananke/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](https://github.com/theNewDynamic/gohugo-theme-ananke/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
+Take a look inside the [`exampleSite`](https://github.com/scheuclu/gohugo-theme-ananke/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](https://github.com/scheuclu/gohugo-theme-ananke/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](https://github.com/scheuclu/gohugo-theme-ananke/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
 You may need to delete the line: `themesDir = "../.."`
 
